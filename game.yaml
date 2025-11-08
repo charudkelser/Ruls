@@ -1,0 +1,76 @@
+rules:
+  # Game Traffic
+  - DOMAIN-SUFFIX,steam.com
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,riotgames.com
+  - DOMAIN-SUFFIX,blizzard.com
+  - DOMAIN-SUFFIX,gameforge.com
+  - DOMAIN-SUFFIX,ubisoft.com
+  - DOMAIN-SUFFIX,origin.com
+  - DOMAIN-SUFFIX,garena.com
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,playstation.com
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,valorant.com
+  - DOMAIN-SUFFIX,blizzard.cn
+  - DOMAIN-SUFFIX,ea.com
+  - DOMAIN-SUFFIX,wargaming.net
+  - DOMAIN-SUFFIX,codmw.com
+  - DOMAIN-SUFFIX,fifa.com
+  - DOMAIN-SUFFIX,starcraft.com
+  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
+  - DOMAIN-SUFFIX,leagueoflegends.com
+  - DOMAIN-SUFFIX,overwatchleague.com
+  - DOMAIN-SUFFIX,blizzard.net
+  - DOMAIN-SUFFIX,halo.com
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,riotgamesapi.com
+  - DOMAIN-SUFFIX,bungie.net
+  - DOMAIN-SUFFIX,destinythegame.com
+  - DOMAIN-SUFFIX,gamespot.com
+  - DOMAIN-SUFFIX,rockstargames.com
+  - DOMAIN-SUFFIX,square-enix.com
+  - DOMAIN-SUFFIX,garena.co.id
+  - DOMAIN-SUFFIX,blizzard.co.jp
+  - DOMAIN-SUFFIX,gamepedia.com
+  - DOMAIN-SUFFIX,supercell.com
+  - DOMAIN-SUFFIX,king.com
+  - DOMAIN-SUFFIX,nintendo.com
+  - DOMAIN-SUFFIX,fortnite.com
+
+  # Game Mobile
+  - DOMAIN-SUFFIX,mobilelegends.com
+  - DOMAIN-SUFFIX,moonton.com
+  - DOMAIN-SUFFIX,pubgmobile.com
+  - DOMAIN-SUFFIX,freefiremobile.com
+  - DOMAIN-SUFFIX,garena.sg
+  - DOMAIN-SUFFIX,garena.com
+  - DOMAIN-SUFFIX,battlegroundsmobileindia.com
+  - DOMAIN-SUFFIX,callofduty.com
+  - DOMAIN-SUFFIX,brawlstars.com
+  - DOMAIN-SUFFIX,clashofclans.com
+  - DOMAIN-SUFFIX,supercell.com
+  - DOMAIN-SUFFIX,pubgmobilecdn.com
+  - DOMAIN-SUFFIX,garena.ph
+  - DOMAIN-SUFFIX,tencentgames.com
+  - DOMAIN-SUFFIX,clashroyale.com
+  - DOMAIN-SUFFIX,roblox.com
+  - DOMAIN-SUFFIX,fortnite.com
+  - DOMAIN-SUFFIX,genshinimpact.com
+  - DOMAIN-SUFFIX,apexlegends.com
+  - DOMAIN-SUFFIX,genshin.mihoyo.com
+  - DOMAIN-SUFFIX,crossfire.com
+
+  # Ports used by games
+  - DST-PORT,80  # HTTP port
+  - DST-PORT,443  # HTTPS port
+  - DST-PORT,8080  # HTTP Proxy Port (common in some games)
+  - DST-PORT,27015  # Steam Game Server Port
+  - DST-PORT,8000  # Some game ports (e.g., certain Minecraft servers)
+  - DST-PORT,3074  # Xbox Live
+  - DST-PORT,5223  # Port used by mobile games like Clash of Clans, Mobile Legends
+  - DST-PORT,10000 # Some game ports (Fortnite, etc.)
+  - DST-PORT,25000 # Game-specific ports for some games
+  - DST-PORT,4433  # Steam Chat Service
+  - DST-PORT,5500  # Various mobile game ports
